@@ -2,12 +2,16 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
 
-  return (
-    <>
+  const getLayout = Component.getLayout || ((page) => page );
+
+  // return (
+  //   <>
       
-      <Component {...pageProps} />
-    </>
-    )
+  //     <Component {...pageProps} />
+  //   </>
+  //   )
+
+  return getLayout(<Component {...pageProps} />);
 }
 
 export default MyApp

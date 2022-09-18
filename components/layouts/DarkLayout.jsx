@@ -1,8 +1,5 @@
 
 
-
-
-
 export const DarkLayout = ({children}) => {
   return (
     <div style = {{
@@ -11,8 +8,8 @@ export const DarkLayout = ({children}) => {
             borderRadius:'1em',
     }}>
         <h3>Dark-Layout</h3>
-        <div>
 
+        <div>
         {children}
         </div>
     </div>
