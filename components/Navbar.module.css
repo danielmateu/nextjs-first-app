@@ -1,0 +1,12 @@
+.menu-container a {
+    margin-right: 1em;
+}
+
+.menu-container a:hover {
+    color:#0070f3;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
